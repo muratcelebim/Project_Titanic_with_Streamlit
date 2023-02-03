@@ -1,0 +1,13 @@
+catboost==1.1.1
+joblib==1.2.0
+lightgbm==3.3.5
+matplotlib==3.6.3
+missingno==0.5.1
+numpy==1.19.5
+pandas==1.1.5
+Pillow==9.4.0
+scikit_learn==1.2.1
+seaborn==0.12.2
+streamlit==1.17.0
+xgboost==1.7.3
+yfinance==0.2.9
