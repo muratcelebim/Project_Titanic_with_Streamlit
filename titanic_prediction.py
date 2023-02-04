@@ -153,13 +153,12 @@ new_model.predict(X_sample)
 
 st.subheader('Prediction')
 
-if st.button('Click for Predict'):
-    if new_model.predict(X_sample)[0] == 0:
-        st.write("Didn't Survive")
-    else:
-        st.write("Survived")
+
+if new_model.predict(X_sample)[0] == 0:
+    st.write("Didn't Survive")
 else:
-    st.write('For the prediction, please click the button that says **Click for Predict**.')
+    st.write("Survived")
+
 
 
 st.write("""
