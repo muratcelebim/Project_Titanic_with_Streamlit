@@ -58,8 +58,7 @@ Alınan bilgiler ise kısaca şunlar:
     
 Bu bilgiler doğrultusunda bu kişinin gemiden sağ çıkıp çıkmama durumunu  tamin eden bir model geliştirdim. 
 Uygulama açık değilse sol üstteki ">" işareti ile gösterilen barı açarak tahmin için değerleri seçebilirsiniz.
-Ardından özeelikleri değiştirerek sonucunuzu "Prediction" başlığı altındaki **Click for Predict** butonuna basarak 
-görebilirsiniz.
+Ardından özeelikleri değiştirerek sonucunuzu "Prediction" başlığı altında görebilirsiniz.
 """)
 
 st.write("""Uygulamanın tahmin başarsı (**Accuracy Score**): %82""")
