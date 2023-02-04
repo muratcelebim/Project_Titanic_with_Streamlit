@@ -74,10 +74,10 @@ def user_input_features():
 
     if pclass == 'En iyi':
         pclass = 1
-    elif pclass == "pclass_input":
+    elif pclass == "Orta":
         pclass = 2
     else:
-        pclass = 2
+        pclass = 3
 
     # SEX
     sex = st.sidebar.radio("Cinsiyetinizi seçiniz:", ('Erkek', 'Kadın'))
